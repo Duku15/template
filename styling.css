@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(205, 198, 189);
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #555;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    position: fixed;
+    width: 100%;
+
+}
+.navbar-primary{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+    
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+
+}
+.navbar-menu-list{
+    color: antiquewhite;
+}
+.nav-link{
+    text-decoration: none;
+}
